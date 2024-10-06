@@ -7,10 +7,12 @@ This project analyzes student data to predict academic success and dropout rates
 The dataset was obtained from Kaggle: "Predict Students' Dropout and Academic Success" by Valentim Realinho, Jorge Machado, Luís Baptista, and Mónica V. Martins. It contains 4,424 records with 35 attributes, including demographic data, academic performance, and macroeconomic indicators. [Dataset Link](https://doi.org/10.5281/zenodo.5777340)
 
 ### Key Features:
-- **Demographics:** Age, Marital Status, Nationality, etc.
-- **Academic Performance:** Curricular units credited/enrolled/evaluated/approved.
-- **Socio-Economic:** Mother's/Father's qualification and occupation, unemployment rate, GDP, etc.
-- **Target Variables:** Student dropout or academic success.
+- **Demographics:** marital status, nationality, displaced, gender, age at enrollment, and international
+- **Socio-Economic:** parent qualification and occupation, educational special needs, debtor, tuition fees, and scholarship holder 
+- **Macroeconomic:** unemployment rate, inflation rate, and GDP
+- **Enrollment Date:** application mode, application order, course, attendance, and previous qualification
+- **Academic Performance:** curricular units credited/enrolled/evaluated/approved/grade.
+- **Target Variables:** student dropout or academic success.
 
 ### Dataset Columns
 
@@ -57,7 +59,7 @@ The dataset was obtained from Kaggle: "Predict Students' Dropout and Academic Su
 ## Project Structure
 
 ```bash
-predict-student-success/
+data_exploration_student_success/
 │
 ├── data/
 │
